@@ -1,0 +1,55 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.projectdescription {
+    color: green;
+}
+
+.ariane {
+    background-color: aqua;
+    text-align:right;
+}
+
+.secondnav {
+    background-color: green;
+}
+
+.other {
+    background-color: black;
+}
+
+.txtprojectdescription {
+    margin-top: 2em;
+}
+
+.page-item {
+    border: none;
+    color:purple;
+    text-decoration: none;
+    text-align: center;
+}
+
+.page-item:hover {
+    border: none;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+}
+
+.titledescription {
+    text-align: center;
+}
