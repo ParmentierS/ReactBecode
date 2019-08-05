@@ -1,0 +1,74 @@
+{
+  "vehicle": [
+    {
+      "q": "Q1",
+      "r": [
+        {
+          "label": "Q1 R1",
+          "value": 3
+        },
+        {
+          "label": "Q1 R2",
+          "value": 7
+        },
+        {
+          "label": "Q1 R3",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "q": "Q2",
+      "r": [
+        {
+          "label": "Q2 R1",
+          "value": 3
+        },
+        {
+          "label": "Q2 R2",
+          "value": 7
+        },
+        {
+          "label": "2 R3",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "env": [
+    {
+      "q": "Q1",
+      "r": [
+        {
+          "label": "Q1 R1",
+          "value": 3
+        },
+        {
+          "label": "Q1 R2",
+          "value": 7
+        },
+        {
+          "label": "Q1 R3",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "q": "Q2",
+      "r": [
+        {
+          "label": "Q2 R1",
+          "value": 3
+        },
+        {
+          "label": "Q2 R2",
+          "value": 7
+        },
+        {
+          "label": "2 R3",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
