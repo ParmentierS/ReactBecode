@@ -4,7 +4,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import Action from '../views/Agir/Action';
 import Suivis from '../views/Agir/Compenser/Suivis/Suivis';
-import HappyDrink from './views/Becode/HappyDrink'
+import HappyDrink from '../views/Becode/HappyDrink/HappyDrink'
 import DonationViews from '../views/Agir/Compenser/Donation/';
 import EvaluerViews from '../views/Evaluer/';
 //Views

@@ -4,12 +4,18 @@ import './HappyDrink.css';
 import { establishments }     from './fixtures'
 
 
-class App extends React.Component 
+class HappyDrink extends React.Component 
 {
-  state =
+  constructor(props)
   {
-    favorites : []
+      super(props);
+      this.state =
+      {
+        favorites : []
+      }
   }
+
+  
   render()
   {
     const listEstablishment = establishments.map( (establishment) => 
@@ -46,4 +52,4 @@ class App extends React.Component
   
 }
 
-export default App;
+export default HappyDrink;
