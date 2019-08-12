@@ -32,8 +32,15 @@ export const establishments = [
     },
     {
         id          : "ATTENTION",
-        name        : "FINAL STOP BAR",
+        name        : "FINAL FLASH STOP BAR",
         description : "Le bar où finir ta soirée",
         happyHour : "3h"
+    }
+    ,
+    {
+        id          : "BECODEINC",
+        name        : "CHEZ TON FRERE",
+        description : "Car il n'y a plus de place chez ta mère",
+        happyHour : "0h42"
     }
 ]

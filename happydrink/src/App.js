@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { establishments }     from './fixtures'
+import Like from './Like'
 
 
 class App extends React.Component 
@@ -34,6 +35,8 @@ class App extends React.Component
                 <h3>Happy Hour</h3>
   
                 { establishment.happyHour }
+
+                <Like like={0} />
   
             </li>
             
@@ -85,6 +88,8 @@ class App extends React.Component
                 <h3>Happy Hour</h3>
   
                 { establishment.happyHour }
+
+                <Like like={0} />
   
             </li>
             
@@ -178,6 +183,9 @@ class App extends React.Component
                 <h3>Happy Hour</h3>
   
                 { establishment.happyHour }
+
+                <Like like={0} />
+
   
           </li>
           
@@ -223,6 +231,7 @@ class App extends React.Component
             />
           </div>
           <div className="App-intro">
+            <h3>Liste des Bars</h3>
               { this.state.renderFilteredBar }
           </div>
           <div className="App-favorites">
